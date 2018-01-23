@@ -3245,3 +3245,12 @@
 	background: #dcad8b;
 color: #fff;
 }
+
+.kati-container {
+	margin-top: 10px;
+}
+
+.picture-kati {
+  border-radius: 78px !important;
+  margin-top: 27px;
+}

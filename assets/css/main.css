@@ -74,6 +74,22 @@ RawBlameHistory
 		box-sizing: border-box;
 	}
 
+	.kati-container {
+		justify-content: center
+	}
+	.picture-kati {
+		display: block;
+		margin: auto;
+		background-repeat: no-repeat;
+		height: 245px;
+    width: 245px;
+		background-position: center center;
+		background: url("./images/Profile_Pic.jpg");
+		background-size: cover;
+		border-radius: 50%;
+	  margin-top: 24px;
+	}
+
 /* Containers */
 
 	.container {
@@ -1868,13 +1884,13 @@ RawBlameHistory
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: #70aecd;
+			.icon.circle.fa-linkedin {
+				background: #0077B5;
 				color: #fff;
 			}
 
-				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+				.icon.circle.fa-linkedin:hover {
+					background: #0077B5;
 				}
 
 			.icon.circle.fa-facebook {
@@ -1886,22 +1902,22 @@ RawBlameHistory
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+			.icon.circle.fa-angellist {
 				background: #db6b67;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.fa-angellist:hover {
 					background: #df7b77;
 				}
 
 			.icon.circle.fa-github {
-				background: #dcad8b;
+				background: #24292e;
 				color: #fff;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #24292e;
 				}
 
 			.icon.circle.fa-dribbble {
@@ -3278,9 +3294,9 @@ RawBlameHistory
 	font-size: 22px;
 }
 
-.icon.circle.fa-linkedin {
-	background: #dcad8b;
-color: #fff;
+a.icon.circle.fa-linkedin {
+	background: #0077B5;
+	color: #fff;
 }
 
 
@@ -3290,6 +3306,13 @@ color: #fff;
 }
 
 .picture-kati {
-  border-radius: 78px !important;
-  margin-top: 27px;
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 138px;
+	width: 138px;
+	background-position: center center;
+	background: url("./images/Profile_Pic.jpg");
+	border-radius: 50%;
+  margin-top: 24px;
 }

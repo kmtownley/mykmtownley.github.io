@@ -1,3 +1,21 @@
+/* Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @kmtownley
+ Sign out
+ Watch 0
+  Star 0  Fork 0 kmtownley/mykmtownley.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathmykmtownley.github.io/assets/css/main.css
+dce1a6f  8 days ago
+@kmtownley kmtownley Creates link to live site
+1 contributor
+RawBlameHistory
+3276 lines (2596 sloc)  52.2 KB */
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
@@ -1959,7 +1977,8 @@
 			display: block;
 			float: left;
 			text-align: center;
-			width: 300px;
+			width: 253px;
+			margin-bottom: 25px;
 		}
 
 			ul.featured-icons li .icon {
@@ -1971,8 +1990,9 @@
 				flex-direction: row;
 		    display: flex;
 		    flex-wrap: wrap;
-		    width: 771px;
+		    width: 100%;
 				padding-bottom: 12px;
+		    justify-content: center;
 
 			}
 
@@ -3230,7 +3250,7 @@
 		margin-left: 0;
 		flex-wrap: wrap;
     margin: -2px -22px -18px 0px;
-    width: 1360px;
+    width: 100%;
 		/* float: none; */
 	}
 

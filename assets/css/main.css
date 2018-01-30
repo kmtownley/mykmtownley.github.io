@@ -2150,7 +2150,7 @@ RawBlameHistory
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #a3adac;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -3277,6 +3277,7 @@ RawBlameHistory
     text-align: center;
     width: 100%;
 		/* margin-bottom: 27px; */
+		}
 	}
 
 	.new-icons {
@@ -3288,31 +3289,26 @@ RawBlameHistory
   font-size: 2em;
 }
 
-.skills-words {
+.project-container {
+	display: flex;
+	justify-content: space-between;
+	width: 33%;
+  margin-left: 36%;
+}
+
+.project-container h3 {
+	vertical-align: center;
+}
+
+#project-icon {
+	margin-top: 25px;
+	border-bottom: none;
+	color: grey;
+  margin-left: 40px;
+}
+
+/* .skills-words {
 	margin-top: 34px;
 	margin-left: 65px;
 	font-size: 22px;
-}
-
-a.icon.circle.fa-linkedin {
-	background: #0077B5;
-	color: #fff;
-}
-
-
-
-.kati-container {
-	margin-top: 10px;
-}
-
-.picture-kati {
-	display: block;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 138px;
-	width: 138px;
-	background-position: center center;
-	background: url("./images/Profile_Pic.jpg");
-	border-radius: 50%;
-  margin-top: 24px;
-}
+} */

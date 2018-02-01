@@ -1990,13 +1990,16 @@ RawBlameHistory
 		/* opacity: 0.35; */
 		overflow: hidden;
 		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 		ul.featured-icons li {
 			display: block;
 			float: left;
 			text-align: center;
-			width: 253px;
+			min-width: 215px;
 			margin-bottom: 25px;
 		}
 
@@ -3279,6 +3282,7 @@ RawBlameHistory
     float: left;
     text-align: center;
     width: 100%;
+
 		/* margin-bottom: 27px; */
 		}
 	}
